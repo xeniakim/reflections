@@ -9,14 +9,26 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	
+	I can use the staging area by using 'git add' command only to add files that I modified for one logical change. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	When i want to make a experimental change of code, i can make a branch and try some challenges. Also if I make other version of existing code that is slightly diffrent from original version (other languages, game difficulties), branch will help.
 
 How do the diagrams help you visualize the branch structure?
+	
+	Diagram helps me understand concept of branch and commit. After drawing diagrams, especially, now i know about detached HEAD error message.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging branches caused result files that includes all the changes on the commits of diffrent branches. Though i delete a branch, using merge commit i can reach all the commits.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	Always doing merges manually: In this case, we have to check all contents of files before merging and manually make modification by ourselves.
+	
+	Git's automatic merging: When codes that have to selected are obvious, git automatically judge and merge branches. That operation helps us reducing effort to decide what code is better, to modify codes.
